@@ -1,0 +1,12 @@
+﻿<Window x:Class="TestMedDropDownOgListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ComboBox Name="TestDrop" HorizontalAlignment="Left" Margin="30,45,0,0" VerticalAlignment="Top" Width="120" DropDownOpened="TestDrop_DropDownOpened" SelectionChanged="TestDrop_SelectionChanged"/>
+        <ListBox Name="TestListLeft" HorizontalAlignment="Left" Height="100" Margin="190,45,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="TestListLeft_SelectionChanged"/>
+        <ListBox Name="TestListRight" HorizontalAlignment="Left" Height="100" Margin="318,45,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="TestListRight_SelectionChanged"/>
+        <Button Name="Refreshbtn" Content="Button" HorizontalAlignment="Left" Margin="162,212,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="Refreshbtn_Click"/>
+
+    </Grid>
+</Window>
